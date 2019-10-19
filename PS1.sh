@@ -18,8 +18,8 @@ esac
 
 case $SHELL in
   /bin/sh)   PS1="[\u@\h:\l \W]`echo -e $emoji` ";;
-  /bin/bash) PS1="[\u@\h \W]`echo -e $emoji` ";;
+  /bin/bash) PS1="[`echo -e $emoji` \u@\h \W] ";;
   /bin/ksh)  PS1='${USER}@`hostname`:${PWD} `printf $emoji`> ';;
-  /bin/zsh)  PS1="%n@%m %1~ `echo -e $emoji` ";;
+  /bin/zsh)  PS1="`echo -e $emoji` %n@%m %1~ ";;
 esac
 
