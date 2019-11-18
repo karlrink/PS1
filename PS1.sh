@@ -21,7 +21,6 @@ esac
 case $month-$day in
  10-31) emoji="\xF0\x9F\x91\xBB";; #ghost
  11-11) emoji="\xF0\x9F\x8E\x96";; #military_medal
- 11-28) emoji="\xF0\x9F\xA6\x83";; #turkey
  12-24) emoji="\xF0\x9F\x8E\x85";; #santa
  12-25) emoji="\xF0\x9F\x8D\x90";; #pear
  12-26) emoji="\xF0\x9F\x95\x8A";; #dove_of_peace
@@ -78,12 +77,17 @@ case $year-$month-$day in
  2020-9-7)  emoji="\xF0\x9F\x91\x96";; #jeans
  2021-9-6)  emoji="\xF0\x9F\x91\x96";; #jeans
  2022-9-5)  emoji="\xF0\x9F\x91\x96";; #jeans
+ #thanksgiving
+ 2019-11-28) emoji="\xF0\x9F\xA6\x83";; #turkey
+ 2020-11-26) emoji="\xF0\x9F\xA6\x83";; #turkey
+ 2021-11-25) emoji="\xF0\x9F\xA6\x83";; #turkey
+ 2022-11-24) emoji="\xF0\x9F\xA6\x83";; #turkey
 esac
 
 case $SHELL in
   /bin/sh)   PS1="[\u@\h:\l \W]`echo -e $emoji` ";;
-  /bin/bash) PS1="[`echo -e $emoji` \u@\h \W] ";;
+  /bin/bash) PS1="[`printf $emoji` \u@\h \W] ";;
   /bin/ksh)  PS1='${USER}@`hostname`:${PWD} `printf $emoji`> ';;
-  /bin/zsh)  PS1="`echo -e $emoji` %n@%m %1~ %# ";;
+  /bin/zsh)  PS1="`printf $emoji` %n@%m %1~ %# ";;
 esac
 
