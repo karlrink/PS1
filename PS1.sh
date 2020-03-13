@@ -85,6 +85,7 @@ case $year-$month-$day in
  2022-11-24) emoji="\xF0\x9F\xA6\x83";; #turkey
  #friday.the.13th
  2020-03-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
+ 2020-11-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
  2021-07-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
  2022-05-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
  2023-01-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
