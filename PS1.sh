@@ -40,6 +40,8 @@ case $month-$day in
  03-17) emoji="\xE2\x98\x98\xEF\xB8\x8F";; #shamrock
  04-01) emoji="\xF0\x9F\x98\x9C";; #wink_face_tongue
  04-15) emoji="\xF0\x9F\x92\xB8";; #money_w/_wings
+ 05-05) emoji="\xF0\x9F\xAA\x85";; #pinata - Cinco de Mayo
+ #05-05) emoji="\xF0\x9F\x87\xB2\xF0\x9F\x87\xBD";; #flag: Mexico - Cinco de Mayo
 esac
 
 case $year-$month-$day in
