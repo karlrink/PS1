@@ -11,26 +11,20 @@ An **Emoji** is a small digital image or icon used to express an idea, emotion, 
 
 I like my command prompt to have an emoji in it...  a different emoji for each month of the year.  October is the jack_o_lantern.  
 ```  
-krink@Karls-MacBook-Pro ~ 🎃 
+🎃 krink@Karls-MacBook-Pro ~ %
 ```  
 
 # Install  
 
-## Mac OS   
+## Git Clone   
 Since the departure of bash and the adoption of zsh...  
 ```  
 git clone https://github.com/karlrink/PS1.git  
 cp PS1/PS1.sh $HOME/.zlogin  
 ```  
-## Linux  
-```  
-git clone https://github.com/karlrink/PS1.git  
-cp PS1/PS1.sh $HOME/.PS1.sh  
-cat <<-EOE >>~/.bashrc  
-if [ -f $HOME/.PS1.sh ]; then  
-      . $HOME/.PS1.sh  
-fi  
-EOE  
+## Curl CLI  
+```
+curl -L https://raw.githubusercontent.com/karlrink/PS1/master/PS1.sh >$HOME/.profile  
 ```  
    
  
