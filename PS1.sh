@@ -64,7 +64,10 @@ case $year-$month-$day in
  2019-05-27) emoji="\xF0\x9F\x87\xBA\xF0\x9F\x87\xB8";; #flag_us
  2020-05-25) emoji="\xF0\x9F\x87\xBA\xF0\x9F\x87\xB8";; #flag_us
  2021-05-31) emoji="\xF0\x9F\x87\xBA\xF0\x9F\x87\xB8";; #flag_us
- 2022-05-30) emoji="\xF0\x9F\x87\xBA\xF0\x9F\x87\xB8";; #flag_us
+ #2022-05-30) emoji="\xF0\x9F\x87\xBA\xF0\x9F\x87\xB8";; #flag_us
+ #2022-05-30) emoji="\U1F1FA\U1F1F8";; # U+1F1FA U U+1F1F8 S
+ #2022-05-30) emoji="";; # U+1F1FA U U+1F1F8 S
+ 2022-05-30) emoji="🪖";; # U+1FA96
  #mothers day
  2019-05-12) emoji="\xF0\x9F\x91\xA9";; #woman
  2020-05-10) emoji="\xF0\x9F\x91\xA9";; #woman
