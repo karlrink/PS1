@@ -68,6 +68,8 @@ case $year-$month-$day in
  #2022-05-30) emoji="\U1F1FA\U1F1F8";; # U+1F1FA U U+1F1F8 S
  #2022-05-30) emoji="";; # U+1F1FA U U+1F1F8 S
  2022-05-30) emoji="🪖";; # U+1FA96
+ 2022-05-31) emoji="🗓️";; # U+1F5D3 calendar last day of month
+ 2023-05-29) emoji="🪖";; # U+1FA96 memorial day
  #mothers day
  2019-05-12) emoji="\xF0\x9F\x91\xA9";; #woman
  2020-05-10) emoji="\xF0\x9F\x91\xA9";; #woman
