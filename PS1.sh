@@ -100,6 +100,8 @@ case $year-$month-$day in
  2024-09-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
  2024-12-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
  2025-06-13) emoji="\U1F3D2";; # U+1F3D2 ice_hockey
+ #2022-06-20) emoji="\uD83D\uDE10";; # U+1F610 😐 NEUTRAL FACE
+ 2022-06-20) emoji="😐";; # U+1F610 😐 NEUTRAL FACE
 esac
 
 case $SHELL in
