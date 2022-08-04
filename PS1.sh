@@ -106,8 +106,9 @@ esac
 
 case $SHELL in
   /bin/sh)   PS1="[\u@\h:\l \W]`echo -e $emoji` ";;
-  /bin/bash) PS1="[`printf $emoji` \u@\h \W] ";;
+  /bin/bash) PS1="`printf $emoji` \e[01;32m\u\e[m@\e[01;32m\h\e[m:\e[01;34m\W\e[m$ ";;
   /bin/ksh)  PS1='${USER}@`hostname`:${PWD} `printf $emoji`> ';;
   /bin/zsh)  PS1="`printf $emoji` %n@%m %1~ %# ";;
+  /bin/fish) PS1="[`printf $emoji` \u@\h \W] ";;
 esac
 
